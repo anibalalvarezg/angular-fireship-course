@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "app-dev-62cb0": {
+      "hosting": {
+        "angular-fireship-course": [
+          "app-dev-62cb0"
+        ]
+      }
+    }
+  }
+}
