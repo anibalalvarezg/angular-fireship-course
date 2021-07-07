@@ -21,6 +21,10 @@
         {
           "source": "**",
           "destination": "/index.html"
+        }, 
+        {
+          "source": "public/**",
+          "destination": "/index.html"
         }
       ]
     }
