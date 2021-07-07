@@ -19,11 +19,11 @@
       ],
       "rewrites": [
         {
-          "source": "**",
+          "source": "/public/**",
           "destination": "/index.html"
-        }, 
+        },
         {
-          "source": "public/**",
+          "source": "**",
           "destination": "/index.html"
         }
       ]
