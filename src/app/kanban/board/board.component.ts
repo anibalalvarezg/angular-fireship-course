@@ -14,7 +14,7 @@ export class BoardComponent {
   @Input() board!: Board;
 
   constructor(
-    private boardService: BoardService, 
+    private boardService: BoardService,
     private dialog: MatDialog
   ) {}
 
@@ -48,4 +48,9 @@ export class BoardComponent {
     });
   }
 
+  handleDelete() {
+    if (this.board.id) {
+      this.boardService.deleteBoard(this.board.id);
+    }
+  }
 }
